@@ -638,4 +638,24 @@ a {
     max-width: 500px;
     margin: 0px auto;
 }
+/* Features */
+.feature__heading {
+    margin: 1rem 0rem;
+}
+.feature {
+    gap: 4rem 2rem;
+}
+.feature__image {
+    width: 100%;
+}
+.feature:first-of-type {
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+.feature .feature__content:nth-of-type(2) {
+    order: 2;
+}
+}
+
 
