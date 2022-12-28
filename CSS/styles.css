@@ -26,7 +26,6 @@ body {
     color: var(--color-body);
     font-family: Inter, Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    padding: 3rem;
 }
 p {
     margin-top: 0;
@@ -442,11 +441,13 @@ a {
 .callout {
     padding: 4rem;
     border-radius: 5px;
-    margin: 6rem;
 }
 .callout--primary {
     background: var(--color-primary);
     color: #fff;
+}
+.callout-signup {
+    transform: translateY(5rem);
 }
 .callout__heading {
     color: #fff;
@@ -620,8 +621,9 @@ a {
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
